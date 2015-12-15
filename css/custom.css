@@ -1,7 +1,7 @@
 .article {
   padding: 50px 0;
 
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
   border-top: 5px solid rgba(255, 255, 255, .5);
   border-bottom: 5px solid rgba(255, 255, 255, .5);
 }
@@ -33,10 +33,58 @@
   color: rgba(0, 0, 0, .5);
 }
 
+<<<<<<< Updated upstream
 .navbar {
   min-height: 90px;
 }
 
 .navbar-brand {
   margin-top: -10px;
+=======
+.bg-normal {
+  background-color: #fff;
+  color: #3399CC;
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+  color: #3399CC;
+}
+
+.nav-tabs > li:not(.active) > a {
+  color: #fff;
+}
+
+.nav-tabs > li:not(.active):hover > a {
+  color: #3399CC;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+>>>>>>> Stashed changes
 }
