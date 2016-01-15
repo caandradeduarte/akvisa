@@ -377,7 +377,10 @@
 
               <div class="tab-content bg-normal">
                 <div id="call" class="tab-pane fade in active">
-                  <form id="call-form">
+                  <form method="post" action="http://www.akvisaconsultoria.com.br/cgi-sys/formmail.pl" id="call-form">
+                    <input type="hidden" name="recipient" value="contato@akvisa.com.br">
+                    <input type="hidden" name="subject" value="Contato via Site">
+
                     <div class="form-group">
                         <label for="empresa">Empresa</label>
                         <input type="text" class="form-control" id="empresa" placeholder="Empresa">
@@ -403,7 +406,10 @@
                   </form>
                 </div>
                 <div id="work" class="tab-pane fade">
-                  <form id="work-form">
+                  <form method="post" action="http://www.akvisaconsultoria.com.br/cgi-sys/formmail.pl" id="work-form" enctype="multipart/form-data">
+                    <input type="hidden" name="recipient" value="contato@akvisa.com.br">
+                    <input type="hidden" name="subject" value="Contato via Site - Trabalhe Conosco">
+
                     <div class="form-group">
                         <label for="work-nome">Nome</label>
                         <input type="text" class="form-control" id="work-nome" placeholder="Nome">
