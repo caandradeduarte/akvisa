@@ -1,3 +1,12 @@
+.cover-title {
+  text-shadow: 1px 0 0 rgba(255, 255, 255, .2), -1px 0 0 rgba(255, 255, 255, .2), 0 1px 0 rgba(255, 255, 255, .2), 0 -1px 0 rgba(255, 255, 255, .2), 1px 1px rgba(255, 255, 255, .2), -1px -1px 0 rgba(255, 255, 255, .2), 1px -1px 0 rgba(255, 255, 255, .2), -1px 1px 0 rgba(255, 255, 255, .2);
+}
+
+.cover-text {
+  text-shadow: 1px 0 0 rgba(255, 255, 255, .2), -1px 0 0 rgba(255, 255, 255, .2), 0 1px 0 rgba(255, 255, 255, .2), 0 -1px 0 rgba(255, 255, 255, .2), 1px 1px rgba(255, 255, 255, .2), -1px -1px 0 rgba(255, 255, 255, .2), 1px -1px 0 rgba(255, 255, 255, .2), -1px 1px 0 rgba(255, 255, 255, .2);
+  font-weight: bold !important;
+}
+
 .article {
   padding: 50px 0;
 
